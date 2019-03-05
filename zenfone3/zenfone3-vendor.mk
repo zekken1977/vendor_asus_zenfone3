@@ -1090,7 +1090,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:system/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:system/vendor/lib64/vendor.qti.latency@2.0.so \
-    vendor/asus/zenfone3/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db
+    vendor/asus/zenfone3/proprietary/vendor/radio/qcril_database/qcril.db:system/vendor/radio/qcril_database/qcril.db \
+    vendor/asus/zenfone3/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-impl.so:system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-impl.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so:system/vendor/lib/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:system/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-impl.so:system/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-impl.so \
+    vendor/asus/zenfone3/proprietary/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so:system/vendor/lib64/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so 
 
 PRODUCT_PACKAGES += \
     libantradio \
@@ -1132,12 +1137,5 @@ PRODUCT_COPY_FILES += \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqti-perfd.so:system/vendor/lib64/libqti-perfd.so \
     vendor/asus/zenfone3/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-impl.so:system/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-impl.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so:system/vendor/lib/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:system/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-impl.so:system/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-impl.so \
-    vendor/asus/zenfone3/proprietary/vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so:system/vendor/lib64/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so 
-
+    vendor/asus/zenfone3/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0.so 
 endif
